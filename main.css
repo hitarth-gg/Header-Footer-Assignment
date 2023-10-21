@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+    /* border: solid red 2px; */
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+
+    /* background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%); */
+    /* background-image: url("dalf5l4-7a48a9b0-8629-4a4d-8983-6aaadbf28295.jpg"); */
+    background-size: cover;
+    
+}
+
+.ultra{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid red 2px; */
+    backdrop-filter: brightness(40%) blur(2px); 
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid red 2px; */
+    width: 50%;
+
+}
+div.box12{
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    align-items: center;
+    justify-content: center;
+    
+    /* border: solid 2px red; */
+    color: #e5e5e5;
+    /* position: relative; */
+}
+
+.mainh1{
+    margin-bottom: 40px;
+}
+
+
